@@ -37,6 +37,7 @@ public class LtMapperBeanDefinitionScanner extends ClassPathBeanDefinitionScanne
             beanDefinition.setBeanClassName(LtMapperFactoryBean.class.getName());
 
             beanDefinition.setAutowireMode(AbstractBeanDefinition.AUTOWIRE_BY_TYPE);
+
         }
         return beanDefinitionHolders;
     }
